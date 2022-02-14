@@ -1,7 +1,12 @@
 #include<iostream>
+#include<cstring>
+using namespace std;
 
 int main() {
-	std::cout <<"OM Hari Sree Ganapathe Namaha:\n";
-		return 0;
+	char a[20];
+	std::cout <<"Enter your name:\n";
+	std::cin >> a;
+	std::cout<<"Welcome," << a <<"!\n";
+	return 0;
 }
 
